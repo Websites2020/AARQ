@@ -1,3 +1,6 @@
 $(document).foundation()
 
-$dropdownmenu-arrow-color(black);
+$dropdownmenu-arrow-color.on("active", function() {
+    color: black;
+});
+

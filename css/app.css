@@ -3,6 +3,14 @@
     color: white;
 }
 
+.title2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.back {
+    background: darkseagreen;
+}
+
 #box {
     position: absolute;
     top: 20%;
@@ -46,4 +54,18 @@ video {
     background: url('rice-field.mp3') no-repeat;
     background-size: cover;
     transition: 1s opacity;
+}
+
+#send {
+    position: relative;
+    left: 45%;
+}
+
+.form {
+    padding: 0 250px;
+}
+
+.gCal {
+    position: relative;
+    left: 15%;
 }
