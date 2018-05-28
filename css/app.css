@@ -30,6 +30,7 @@ a:hover {
     color: black;
 }
 
+
 footer {
     background-color: green;
     color: white;
@@ -68,4 +69,18 @@ video {
 .gCal {
     position: relative;
     left: 15%;
+}
+
+.menu .is-active > a {
+    background: #1779ba;
+    color: black;
+}
+.menu .active > a {
+    background: #1779ba;
+    color: black;
+}
+
+.docs {
+    color: rgb(51, 23, 209);
+    text-decoration: underline;
 }
