@@ -72,11 +72,16 @@ video {
 }
 
 .menu .is-active > a {
-    background: #1779ba;
+    background: black;
     color: black;
 }
 .menu .active > a {
-    background: #1779ba;
+    background: black;
+    color: black;
+}
+
+.dropdown.menu .is-active > a {
+    background: transparent;
     color: black;
 }
 
@@ -84,3 +89,26 @@ video {
     color: rgb(51, 23, 209);
     text-decoration: underline;
 }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: white transparent transparent;
+    right: 5px;
+    left: auto;
+    margin-top: -3px; }
+
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-right-width: 0;
+    border-left-style: solid;
+    border-color: transparent transparent transparent white; }
