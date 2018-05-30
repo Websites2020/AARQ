@@ -112,3 +112,7 @@ video {
     border-right-width: 0;
     border-left-style: solid;
     border-color: transparent transparent transparent white; }
+
+.accordion-title {
+    font-size: 20px;
+}
