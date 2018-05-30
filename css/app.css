@@ -62,7 +62,7 @@ video {
     left: 45%;
 }
 
-.form {
+form {
     padding: 0 250px;
 }
 
@@ -115,4 +115,8 @@ video {
 
 .accordion-title {
     font-size: 20px;
+}
+
+textarea {
+    height: 150px;
 }
